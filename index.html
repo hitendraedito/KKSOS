@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishna Kuvarba SOS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #0077ff;
+      --glass-bg: rgba(255, 255, 255, 0.1);
+      --glass-blur: blur(15px);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: white;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 28px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    header h1 img {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    nav a {
+      margin-left: 25px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: var(--primary-color);
+    }
+
+    .hero {
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      backdrop-filter: var(--glass-blur);
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 20px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+
+    .btn-primary {
+      background-color: var(--primary-color);
+      padding: 12px 24px;
+      border: none;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056cc;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .carousel {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      flex: 0 0 300px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 20px;
+      backdrop-filter: blur(10px);
+    }
+
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .card h4 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #111;
+      color: #aaa;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .btn-primary {
+      margin-top: 15px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #25D366;
+    }
+
+    .privacy-note {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #ccc;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><img src="hb.jpeg" alt="logo"> Krishna Kuvarba SOS</h1>
+    <nav>
+      <a href="#teachers">Teachers</a>
+      <a href="#toppers">Toppers</a>
+      <a href="#facilities">Facilities</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Welcome to Krishna Kuvarba SOS</h2>
+    <p>India's top result-producing institute for IIT, NEET & more. Join the journey of success with the best teachers & toppers.</p>
+    <button class="btn-primary">Join Now</button>
+  </div>
+
+  <section id="teachers">
+    <h3>Our Teachers</h3>
+    <div class="carousel">
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="Teacher">
+        <h4>Akshaybhai Patel</h4>
+        <p>Principal | Bio | 7 Years Exp</p>
+      </div>
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="Teacher">
+        <h4>Nikitaben Chaudhary</h4>
+        <p>Maths | 4 Years Exp</p>
+      </div>
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/men/20.jpg" alt="Teacher">
+        <h4>Kiritbhai Nai</h4>
+        <p>Chemistry | 5 Years Exp</p>
+      </div>
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Teacher">
+        <h4>Hiteshbhai</h4>
+        <p>Physics | 3 Years Exp</p>
+      </div>
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/men/25.jpg" alt="Teacher">
+        <h4>Dineshbhai Dave</h4>
+        <p>Sanskrit | 5 Years Exp</p>
+      </div>
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/women/30.jpg" alt="Teacher">
+        <h4>Priyaben</h4>
+        <p>English | 2 Years Exp</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="toppers">
+    <h3>Top Performers</h3>
+    <div class="carousel">
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Student">
+        <h4>Student A</h4>
+        <p>NEET: 657 | Board: 93%</p>
+      </div>
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/women/10.jpg" alt="Student">
+        <h4>Student B</h4>
+        <p>JEE: 99.2%ile | GUJCET: 98%</p>
+      </div>
+      <div class="card">
+        <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="Student">
+        <h4>Student C</h4>
+        <p>Board: 96% | GUJCET: 94%</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="facilities">
+    <h3>Our Facilities</h3>
+    <ul>
+      <li>✔️ Smart Classrooms</li>
+      <li>✔️ Library & Study Room</li>
+      <li>✔️ Experienced Faculty</li>
+      <li>✔️ Result-Oriented Approach</li>
+    </ul>
+  </section>
+
+  <footer id="contact">
+    <h3>For Admission Contact Us</h3>
+    <p>📞 +91 98765 43210<br>
+      📞 +91 91234 56789<br>
+      ✉️ contact@krishnasos.edu.in</p>
+    <p>Created by <a href="https://instagram.com/hitendra.edition" style="color:#00f">@hitendra.edition</a></p>
+  </footer>
+</body>
+
+</html>
